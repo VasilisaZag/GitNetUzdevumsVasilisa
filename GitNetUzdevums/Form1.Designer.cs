@@ -32,8 +32,11 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.GroupBoxVZagorodnova = new System.Windows.Forms.GroupBox();
+            this.ButtonVZagorodnova = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.GroupBoxVZagorodnova.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -75,17 +78,39 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Andrejs Liepiņš";
             // 
+            // GroupBoxVZagorodnova
+            // 
+            this.GroupBoxVZagorodnova.Controls.Add(this.ButtonVZagorodnova);
+            this.GroupBoxVZagorodnova.Location = new System.Drawing.Point(71, 131);
+            this.GroupBoxVZagorodnova.Name = "GroupBoxVZagorodnova";
+            this.GroupBoxVZagorodnova.Size = new System.Drawing.Size(346, 206);
+            this.GroupBoxVZagorodnova.TabIndex = 4;
+            this.GroupBoxVZagorodnova.TabStop = false;
+            this.GroupBoxVZagorodnova.Text = "Vasilisa Zagorodnova";
+            // 
+            // ButtonVZagorodnova
+            // 
+            this.ButtonVZagorodnova.Location = new System.Drawing.Point(76, 79);
+            this.ButtonVZagorodnova.Name = "ButtonVZagorodnova";
+            this.ButtonVZagorodnova.Size = new System.Drawing.Size(187, 63);
+            this.ButtonVZagorodnova.TabIndex = 0;
+            this.ButtonVZagorodnova.Text = "y=x+1";
+            this.ButtonVZagorodnova.UseVisualStyleBackColor = true;
+            this.ButtonVZagorodnova.Click += new System.EventHandler(this.ButtonVZagorodnova_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 415);
+            this.Controls.Add(this.GroupBoxVZagorodnova);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Funkciju grafiki";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            this.GroupBoxVZagorodnova.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -96,6 +121,8 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox GroupBoxVZagorodnova;
+        private System.Windows.Forms.Button ButtonVZagorodnova;
     }
 }
 
